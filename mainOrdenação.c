@@ -6,7 +6,7 @@ int *createRandomArray(int *array) {
 
     // Preenche o array com valores aleatórios
     for (int i = 0; i < TAMANHO_MAX; i++) {
-        array[i] = rand() % 10; // Valores aleatórios de 0 a 99
+        array[i] = rand() % 100; // Valores aleatórios de 0 a 99
     }
 
     return array;
